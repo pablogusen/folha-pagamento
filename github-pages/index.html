@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise da Folha de Pagamento - ISSSPL/ALMT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Análise da Folha de Pagamento</h1>
+            <p class="subtitle">ISSSPL/ALMT</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <p>Esta página apresenta a análise detalhada da folha de pagamento do ISSSPL/ALMT.</p>
+        </section>
+
+        <section id="dados">
+            <h2>Dados Gerais</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total de Funcionários</h3>
+                    <p class="stat-number" id="total-funcionarios">-</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Folha Total</h3>
+                    <p class="stat-number" id="folha-total">-</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Média Salarial</h3>
+                    <p class="stat-number" id="media-salarial">-</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="graficos">
+            <h2>Visualizações</h2>
+            <div class="chart-container">
+                <canvas id="chart"></canvas>
+            </div>
+        </section>
+
+        <section id="detalhes">
+            <h2>Detalhes da Análise</h2>
+            <p>Informações detalhadas sobre a folha de pagamento serão apresentadas aqui.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ISSSPL/ALMT - Análise de Folha de Pagamento</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
